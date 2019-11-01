@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   cloudlaunch:
   - appVersion: 2.0.2
-    created: "2019-11-01T01:52:14.726553-04:00"
+    created: "2019-11-01T13:56:01.323349-04:00"
     description: A Helm chart for CloudLaunch, including the server and web UI
-    digest: 258ae0346da6773f2bb6b58e013252fec1e266c2c69be47b8b653b6afb9e423c
+    digest: 532349e4c2084d890c0216712a2ad9db1e4ca4e831980c96ee2d85b5b41528e8
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunch
     urls:
@@ -12,9 +12,9 @@ entries:
     version: 0.3.0
   cloudlaunchserver:
   - appVersion: 2.0.2
-    created: "2019-11-01T01:52:14.776763-04:00"
+    created: "2019-11-01T13:56:01.327029-04:00"
     description: A Helm chart for the CloudLaunch server/api component
-    digest: 2e5210d0f1f498e4ff74a07a8398cb10b7a88d02b30da3f62db37d80b47035a6
+    digest: 25ac3fcc9ea6cea44c527bc6438e79cbc9187cfbfd7377877eeaf8d6915b5b12
     home: http://cloudlaunch.cloudve.org/
     name: cloudlaunchserver
     urls:
@@ -22,15 +22,15 @@ entries:
     version: 0.3.0
   cloudman:
   - appVersion: 2.0.0
-    created: "2019-11-01T01:52:14.889494-04:00"
+    created: "2019-11-01T13:56:01.347218-04:00"
     description: A CloudMan Helm chart for Kubernetes
-    digest: 307871ac8743991da03d4734a467b2b6cdb5606dc5621e587ee180e35bd1bf7a
+    digest: 6aba8f343462375e609f0f275a8ea1d0d2e49ab91c503304d2da7fa6f591b927
     name: cloudman
     urls:
     - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudman-0.3.1.tgz
     version: 0.3.1
   - appVersion: 2.0.0
-    created: "2019-11-01T01:52:14.834533-04:00"
+    created: "2019-11-01T13:56:01.338312-04:00"
     description: A CloudMan Helm chart for Kubernetes
     digest: d964b3555fe1f2a7d3d49737f77e6ad558ff5b28652e2a25148f11ac14ae8a21
     name: cloudman
@@ -40,7 +40,7 @@ entries:
   galaxy:
   - apiVersion: v1
     appVersion: v19.09
-    created: "2019-11-01T01:52:14.909448-04:00"
+    created: "2019-11-01T13:56:01.392729-04:00"
     description: Chart for Galaxy, an open, web-based platform for accessible, reproducible,
       and transparent computational biomedical research.
     digest: 4e80cb424176e6e6f6ba92eca414b3f48bd2ab078207fada9a3e36471ab630e0
@@ -51,7 +51,7 @@ entries:
     version: 3.1.0
   - apiVersion: v1
     appVersion: v19.05
-    created: "2019-11-01T01:52:14.901161-04:00"
+    created: "2019-11-01T13:56:01.38467-04:00"
     description: Chart for Galaxy, an open, web-based platform for accessible, reproducible,
       and transparent computational biomedical research.
     digest: f7b2788985fa32726b24dad92b01a40ad0d9224680fcdf0ae06427850bd6f482
@@ -63,7 +63,7 @@ entries:
   galaxy-cvmfs-csi:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-01T01:52:14.933871-04:00"
+    created: "2019-11-01T13:56:01.411862-04:00"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: a4648dedfa70623b37ed6ea1fe332500149e17d87ce772315e484944ec2aa6b2
@@ -74,7 +74,7 @@ entries:
   postgresql:
   - apiVersion: v1
     appVersion: 10.7.0
-    created: "2019-11-01T01:52:14.951969-04:00"
+    created: "2019-11-01T13:56:01.415647-04:00"
     description: Chart for PostgreSQL, an object-relational database management system
       (ORDBMS) with an emphasis on extensibility and on standards-compliance.
     digest: 9fe4d7a1533308c051750571254b00aaaaed7926906508ad9887d6473d8bc5fb
@@ -101,7 +101,7 @@ entries:
     version: 4.0.0
   prometheus:
   - appVersion: 2.2.1
-    created: "2019-11-01T01:52:14.980747-04:00"
+    created: "2019-11-01T13:56:01.457735-04:00"
     description: Prometheus is a monitoring system and time series database.
     digest: ff23f84162f4bd6120bb5e8bb2f85431fc1f0bfa3ca0a50de37181d750dacf89
     engine: gotpl
@@ -123,7 +123,7 @@ entries:
   pulsar:
   - apiVersion: v1
     appVersion: 0.9.0
-    created: "2019-11-01T01:52:15.017772-04:00"
+    created: "2019-11-01T13:56:01.495702-04:00"
     description: A Python server application that allows a Galaxy server to run jobs
       on remote systems without requiring a shared mounted file systems.
     digest: 8ec38223bc87e203c5b8ceb03912f9fc7ebba17e8f859cf03e8b4a47ae733408
@@ -131,4 +131,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/pulsar-0.1.0.tgz
     version: 0.1.0
-generated: "2019-11-01T01:52:14.677094-04:00"
+generated: "2019-11-01T13:56:01.318431-04:00"
