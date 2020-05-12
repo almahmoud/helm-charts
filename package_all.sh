@@ -11,7 +11,7 @@
 # fork, the final packaged cloudman will have the packaged cloudlaunch version, and not the one
 # downloaded from the dependency.yml)
 
-REPO_NAME=cloudve
+REPO_NAME=almahmoud
 BRANCH_NAME=master
 # Packaged CLServer and CL charts are automatically added as the dependency charts for
 # CL and CM respectively
