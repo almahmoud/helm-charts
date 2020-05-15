@@ -12,7 +12,7 @@
 # downloaded from the dependency.yml)
 
 REPO_NAME=almahmoud
-BRANCH_NAME=master
+BRANCH_NAME=install_templates
 # Packaged CLServer and CL charts are automatically added as the dependency charts for
 # CL and CM respectively
 CL_VERSION=0.4.0
