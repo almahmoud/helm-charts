@@ -3,7 +3,7 @@ entries:
   cloudlaunch:
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2020-05-26T19:08:33.987497-04:00"
+    created: "2020-05-26T19:33:56.64052-04:00"
     dependencies:
     - name: cloudlaunchserver
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -17,7 +17,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2020-05-26T19:08:33.981286-04:00"
+    created: "2020-05-26T19:33:56.634606-04:00"
     dependencies:
     - name: cloudlaunchserver
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -32,7 +32,7 @@ entries:
   cloudlaunchserver:
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2020-05-26T19:08:34.028819-04:00"
+    created: "2020-05-26T19:33:56.653569-04:00"
     dependencies:
     - name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com/
@@ -50,7 +50,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 2.0.2
-    created: "2020-05-26T19:08:34.021193-04:00"
+    created: "2020-05-26T19:33:56.646997-04:00"
     dependencies:
     - name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com/
@@ -69,7 +69,7 @@ entries:
   cloudman:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2020-05-26T19:08:34.119651-04:00"
+    created: "2020-05-26T19:33:56.73565-04:00"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -92,7 +92,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2020-05-26T19:08:34.090589-04:00"
+    created: "2020-05-26T19:33:56.708939-04:00"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -115,7 +115,7 @@ entries:
     version: 0.3.2
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2020-05-26T19:08:34.061492-04:00"
+    created: "2020-05-26T19:33:56.680906-04:00"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -139,7 +139,7 @@ entries:
   galaxy:
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-05-26T19:08:34.18726-04:00"
+    created: "2020-05-26T19:33:56.766562-04:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -155,7 +155,7 @@ entries:
     version: 3.4.0
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-05-26T19:08:34.174263-04:00"
+    created: "2020-05-26T19:33:56.756385-04:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -171,7 +171,7 @@ entries:
     version: 3.3.0
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-05-26T19:08:34.140914-04:00"
+    created: "2020-05-26T19:33:56.746257-04:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -188,7 +188,7 @@ entries:
   galaxy-cvmfs-csi:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2020-05-26T19:08:34.207837-04:00"
+    created: "2020-05-26T19:33:56.770528-04:00"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: d0d1dadef030582bd7729b3ec3ca58eda62f3a296d19a3c27609ea774191f317
@@ -198,7 +198,7 @@ entries:
     version: 1.3.2
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2020-05-26T19:08:34.206273-04:00"
+    created: "2020-05-26T19:33:56.769463-04:00"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: b7bd96d9571d5422384d6bf2d322e1ea64a81580ce5438ec1ca8f325a6e867aa
@@ -208,7 +208,7 @@ entries:
     version: 1.3.1
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2020-05-26T19:08:34.204353-04:00"
+    created: "2020-05-26T19:33:56.768493-04:00"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: f739ce727f8bffaff77622a6e3ebcafbc07643204a6072bc5a3cca809f4be695
@@ -218,7 +218,7 @@ entries:
     version: 1.3.0
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2020-05-26T19:08:34.202355-04:00"
+    created: "2020-05-26T19:33:56.767538-04:00"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 24cccefd2f6ec5347c8538ed6f2e817091b0e8d3e75852323d1a57486c0dc6f5
@@ -229,7 +229,7 @@ entries:
   projman:
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2020-05-26T19:08:34.208727-04:00"
+    created: "2020-05-26T19:33:56.771114-04:00"
     description: PVC for shared filesystem within a CloudMan project
     digest: 98306e6653e9a51ba3289157aab214cf16dce6ffbc510e5e291bc0799235978a
     name: projman
@@ -240,7 +240,17 @@ entries:
   rstudio:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-26T19:08:34.210522-04:00"
+    created: "2020-05-26T19:33:56.773449-04:00"
+    description: A Helm chart for RStudio on Kubernetes
+    digest: ecb143c3d63939bb4c062494bde8ae7945f339d2f60adf775ab088a4e23949f7
+    name: rstudio
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/install_templates/charts/rstudio-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-05-26T19:33:56.771898-04:00"
     description: A Helm chart for Kubernetes
     digest: 541f2ed291a11f25e67fd2747411421622feeab73ee87d0cae9fbe3caea87ada
     name: rstudio
@@ -251,7 +261,7 @@ entries:
   terminalman:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-05-26T19:08:34.212391-04:00"
+    created: "2020-05-26T19:33:56.774539-04:00"
     dependencies:
     - name: proxyinjector
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -263,4 +273,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/almahmoud/helm-charts/install_templates/charts/terminalman-1.0.0.tgz
     version: 1.0.0
-generated: "2020-05-26T19:08:33.969578-04:00"
+generated: "2020-05-26T19:33:56.626467-04:00"
