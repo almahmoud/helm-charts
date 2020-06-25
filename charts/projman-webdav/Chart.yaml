@@ -1,6 +1,0 @@
-apiVersion: v2
-appVersion: 0.3.0
-description: PVC for shared filesystem within a CloudMan project
-name: projman-webdav
-type: application
-version: 0.2.1
