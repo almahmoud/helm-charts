@@ -3,7 +3,7 @@ entries:
   cloudman:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2020-06-16T19:13:26.436076-04:00"
+    created: "2020-07-19T18:18:23.762193-04:00"
     dependencies:
     - name: cloudlaunch
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -22,12 +22,22 @@ entries:
     digest: 3f1a150c4c747d5ed75b223a031deb1034ea626c763a9ee31f0cdfdb9f28375a
     name: cloudman
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/cloudman-0.4.0.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/rclone52/charts/cloudman-0.4.0.tgz
     version: 0.4.0
+  csi-rclone:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2020-07-19T18:18:23.763516-04:00"
+    description: CSI plugin for rclone mount
+    digest: 13276ee2c437ada9822b08823a7a7d03e51fee0824dd62d9ecfb388b165cfc89
+    name: csi-rclone
+    urls:
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/rclone52/charts/csi-rclone-0.1.11.tgz
+    version: 0.1.11
   galaxy:
   - apiVersion: v1
     appVersion: "20.01"
-    created: "2020-06-16T19:13:26.447558-04:00"
+    created: "2020-07-19T18:18:23.775441-04:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -39,23 +49,23 @@ entries:
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/galaxy-3.4.0.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/rclone52/charts/galaxy-3.4.0.tgz
     version: 3.4.0
   galaxy-cvmfs-csi:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2020-06-16T19:13:26.448924-04:00"
+    created: "2020-07-19T18:18:23.777653-04:00"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: a7b36d1eac6a2ee50e6b920953d74801fd4bd712279a50b1ea738dadc472f23a
     name: galaxy-cvmfs-csi
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/galaxy-cvmfs-csi-1.3.2.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/rclone52/charts/galaxy-cvmfs-csi-1.3.2.tgz
     version: 1.3.2
   owncloud:
   - apiVersion: v1
     appVersion: 10.4.1
-    created: "2020-06-16T19:13:26.455792-04:00"
+    created: "2020-07-19T18:18:23.781835-04:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -79,34 +89,34 @@ entries:
     sources:
     - https://github.com/bitnami/bitnami-docker-owncloud
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/owncloud-8.2.0.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/rclone52/charts/owncloud-8.2.0.tgz
     version: 8.2.0
   projman:
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2020-06-16T19:13:26.491913-04:00"
+    created: "2020-07-19T18:18:23.782857-04:00"
     description: PVC for shared filesystem within a CloudMan project
     digest: 3264c1eff2ff9b70eb00f642f5b99dc5852014820b425f319ef31291a865d796
     name: projman
     type: application
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/projman-0.1.0.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/rclone52/charts/projman-0.1.0.tgz
     version: 0.1.0
   rstudio:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-06-16T19:13:26.494369-04:00"
+    created: "2020-07-19T18:18:23.78407-04:00"
     description: A Helm chart for RStudio on Kubernetes
     digest: daa62bee5850c3956fe7c3cd5f3a4a929387cb2b864bb47887bb5496a7a596af
     name: rstudio
     type: application
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/rstudio-0.2.3.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/rclone52/charts/rstudio-0.2.3.tgz
     version: 0.2.3
   terminalman:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-06-16T19:13:26.496378-04:00"
+    created: "2020-07-19T18:18:23.78663-04:00"
     dependencies:
     - name: proxyinjector
       repository: https://raw.githubusercontent.com/CloudVE/helm-charts/master
@@ -116,6 +126,6 @@ entries:
     name: terminalman
     type: application
     urls:
-    - https://raw.githubusercontent.com/almahmoud/helm-charts/master/charts/terminalman-0.2.0.tgz
+    - https://raw.githubusercontent.com/almahmoud/helm-charts/rclone52/charts/terminalman-0.2.0.tgz
     version: 0.2.0
-generated: "2020-06-16T19:13:26.404569-04:00"
+generated: "2020-07-19T18:18:23.726051-04:00"
